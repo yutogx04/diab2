@@ -1,0 +1,37 @@
+<form [formGroup]="loginForm" (submit)="login()" autocomplete="new-password">
+  <h1>Login</h1>
+
+  <div class="form-control">
+    <label for="email">Email</label>
+      <input
+      formControlName="email"
+      id="email"
+      auto
+      complete="new-password"
+      type="email"
+    />
+  </div>
+
+  <div class="form-control">
+    <label for="password">Password</label>
+    <input
+      formControlName="password"
+      id="password"
+      autocomplete="new-password"
+      type="password"
+    />
+  </div>
+  <div class="form-control" id="rememberMe">
+    <input
+      id="rememberMe"
+      type="checkbox"
+    >
+    <label for="rememberMe">Remember Me</label>
+  </div>
+
+  <button type="submit" id="submit">Login</button>
+  <div id="signupRouter">
+    <p>Not a member?</p>
+    <a type="button" routerLink="signup">SignUP</a>
+  </div>
+</form>

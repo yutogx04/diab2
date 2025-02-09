@@ -1,0 +1,79 @@
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 16px 16px 24px;
+  box-shadow: 0 2px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+  h1 {
+    margin-top: 0;
+    color: #000;
+    padding-bottom: 4px;
+    text-align: center;
+  }
+}
+
+.form-control {
+  margin-bottom: 16px;
+  input,
+  label {
+    display: block;
+  }
+
+  label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  input {
+    padding: 8px;
+    height: 35px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    background-color: #D9D9D9;
+    color: styles.$color2;
+  }
+}
+
+button  {
+  background-color: styles.$color4;
+  color: #fff;
+  padding: 8px 24px;
+  width: 100%;
+  border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.form-control#rememberMe{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  input{
+    height: auto;
+    width: fit-content;
+  }
+}
+
+#signupRouter  {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  a{
+    align-content: center ;
+  }
+}

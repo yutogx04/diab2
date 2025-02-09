@@ -1,0 +1,61 @@
+<form [formGroup]="SignupForm" (submit)="signup()" autocomplete="new-password">
+  <h1>Signup</h1>
+  <div id="name-content-forum">
+    <div class="form-control">
+      <label for="firstName">First name</label>
+      <input
+      formControlName="firstName"
+      id="firstName"
+      auto
+      complete="new-password"
+      type="name"
+    />
+    </div>
+    <div class="form-control">
+      <label for="lastName">Last name</label>
+      <input
+      formControlName="lastName"
+      id="lastName"
+      auto
+      complete="new-password"
+      type="name"
+    />
+    </div>
+  </div>
+  <div class="form-control">
+    <label for="email">Email</label>
+      <input
+      formControlName="email"
+      id="email"
+      auto
+      complete="new-password"
+      type="email"
+    />
+  </div>
+
+  <div class="form-control">
+    <label for="password">Password</label>
+    <input
+      formControlName="password"
+      id="password"
+      autocomplete="new-password"
+      type="password"
+    />
+  </div>
+
+  <div class="form-control">
+    <label for="confirm-password">Confirm password</label>
+    <input
+      formControlName="confirm-password"
+      id="confirm-password"
+      autocomplete="new-password"
+      type="password"
+    />
+  </div>
+
+  <button type="submit" id="submit">Signup</button>
+  <div id="signupRouter">
+    <p>Already have an account?</p>
+    <a type="button" routerLink="">LoginIN</a>
+  </div>
+</form>
