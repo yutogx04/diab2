@@ -1,0 +1,10 @@
+@use '../../../styles.scss';
+mat-sidenav-container{
+  display: flex;
+  height: 100%;
+}
+mat-sidenav{
+  width: 200px;
+  height: 100%;
+  background-color: styles.$color2;
+}

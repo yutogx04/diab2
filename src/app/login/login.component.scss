@@ -1,4 +1,10 @@
 @use '../../styles.scss';
+:host {
+  inset: 0;
+  background-color: styles.$color2;
+  height: 100%;
+  width: 100%;
+}
 form {
   background-color: #fff;
   max-width: 400px;

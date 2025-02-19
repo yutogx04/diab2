@@ -1,8 +1,11 @@
-//@import 'https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap';
-
-//* {
-//  font-family: 'Roboto';
-//}
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+* {
+  font-family: 'Roboto'
+}
+mat-icon {
+  font-family: 'Material Icons'
+}
 
 
 

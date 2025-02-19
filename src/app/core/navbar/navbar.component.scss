@@ -1,0 +1,11 @@
+@use '../../../styles.scss';
+mat-toolbar {
+  font-size: large;
+  background-color: styles.$color2;
+  *{
+    padding: 5px;
+  }
+}
+.spacer {
+  flex: 1 1 auto;
+}
